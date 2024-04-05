@@ -27,16 +27,16 @@ theme_dohac_map <-
   .base_colour = switch(
       base_colour,
       "white" = "white",
-      "blue" = dohactheme::dohac.blue)
+      "blue" = dohactheme::dohac.darkblue)
 
   .text_colour=switch(
     base_colour,
-    "white" = dohactheme::dohac.blue,
+    "white" = dohactheme::dohac.darkblue,
     "blue" = "white")
 
   .line_colour=switch(
     base_colour,
-    "white" = dohactheme::dohac.blue,
+    "white" = dohactheme::dohac.darkblue,
     "blue" = "white")
 
   thm +

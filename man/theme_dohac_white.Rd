@@ -6,8 +6,8 @@
 \usage{
 theme_dohac_white(
   base.colour = "white",
-  line.colour = dohac.blue,
-  text.colour = dohac.blue
+  line.colour = dohac.darkblue,
+  text.colour = dohac.darkblue
 )
 }
 \description{

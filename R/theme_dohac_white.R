@@ -13,8 +13,8 @@
 
 
 theme_dohac_white <- function(base.colour="white",
-                            line.colour=dohac.blue,
-                            text.colour=dohac.blue) {
+                            line.colour=dohac.darkblue,
+                            text.colour=dohac.darkblue) {
 
 
   thm <- dohactheme::theme_dohac_foundation()
