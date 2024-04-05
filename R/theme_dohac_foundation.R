@@ -33,7 +33,7 @@ theme_dohac_foundation <- function(base_size = 15, base_family = "Arial") {
       text =
         ggplot2::element_text(
           family=base_family,
-          size=25
+          size=20
           ),
       plot.title =
         ggplot2::element_text(

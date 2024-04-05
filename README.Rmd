@@ -179,7 +179,7 @@ ggplot(
   geom_sf() +
   geom_text(colour = dohac.blue, lineheight=.5)+
   scale_fill_manual(guide='none',values=colorspace::lighten(strayr::palette_state_name_2016,.7)) +
-  labs(title="States and Territories of Australia")+
+  labs(title="Australia's States and Territories")+
   theme_dohac_map(base_colour = "white", base_size = 10)
 ```
 
@@ -202,7 +202,7 @@ ggplot(
   geom_sf() +
   geom_text(colour = dohactheme::dohac.lightteal, lineheight=.5)+
   scale_fill_manual(guide='none',values=colorspace::lighten(strayr::palette_state_name_2016,.2)) +
-  labs(title="States and Territories of Australia")+
+  labs(title="Australia's States and Territories")+
   theme_dohac_map(base_colour = "blue", base_size = 10)
 ```
 

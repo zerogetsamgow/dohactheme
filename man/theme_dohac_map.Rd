@@ -7,7 +7,7 @@
 theme_dohac_map(
   base_colour = c("white", "blue"),
   base_size = 15,
-  base_family = "Helvetica neue"
+  base_family = "Arial"
 )
 }
 \arguments{

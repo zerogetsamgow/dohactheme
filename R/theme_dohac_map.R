@@ -51,7 +51,7 @@ theme_dohac_map <-
       text =
         ggplot2::element_text(
           family=base_family,
-          size=25,
+          size=20,
           colour=.text_colour
         ),
       plot.title =
