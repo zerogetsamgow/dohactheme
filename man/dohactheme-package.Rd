@@ -4,7 +4,7 @@
 \name{dohactheme-package}
 \alias{dohactheme}
 \alias{dohactheme-package}
-\title{dohactheme: DoHAC Themes Colour Palettes}
+\title{dohactheme: DoHAC Themes and Colour Palettes}
 \description{
 A colour palette and ggplot2 themes that comply with the AustralianDepartment of Health and Aged Care Sytle SheetBuilt using the 'palettes' package, which provides methods for printing, formatting, casting and coercion, extraction and updating of components, plotting, colour mixing arithmetic, and colour interpolation.
 }

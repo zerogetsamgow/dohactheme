@@ -17,9 +17,9 @@
 #' @importFrom ggplot2 theme
 #' @importFrom ggthemes theme_foundation
 
-theme_dohac_foundation <- function(base_size = 15, base_family = "Helvetica neue") {
+theme_dohac_foundation <- function(base_size = 15, base_family = "Arial") {
 
-
+  showtext::showtext_auto()
   thm <- ggthemes::theme_foundation(base_size = base_size, base_family = base_family)
 
   thm +
@@ -32,7 +32,7 @@ theme_dohac_foundation <- function(base_size = 15, base_family = "Helvetica neue
       # Define cube_founcation text parameters
       text =
         ggplot2::element_text(
-          family="Helvetica neue",
+          family=base_family,
           size=25
           ),
       plot.title =

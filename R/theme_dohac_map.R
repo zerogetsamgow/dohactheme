@@ -16,7 +16,7 @@ theme_dohac_map <-
   function(
     base_colour = c("white","blue"),
     base_size = 15,
-    base_family = "Helvetica neue") {
+    base_family = "Arial") {
 
 
 
@@ -50,7 +50,7 @@ theme_dohac_map <-
       # Define cube_founcation text parameters
       text =
         ggplot2::element_text(
-          family="Helvetica neue",
+          family=base_family,
           size=25,
           colour=.text_colour
         ),
@@ -72,8 +72,8 @@ theme_dohac_map <-
       legend.title.position = "top",
       legend.direction = "horizontal",
       legend.margin = ggplot2::margin(.1, .1, .1, .1, "cm"),
-      legend.title = element_text(family="Helvetica neue"),
-      legend.text = element_text(family="Helvetica neue"),
+      legend.title = element_text(family=base_family),
+      legend.text = element_text(family=base_family),
       # Define foundation margin parameters
       plot.margin = ggplot2::margin(.5, .5, 0, .5, "cm"),
       # Define foundation title parameters

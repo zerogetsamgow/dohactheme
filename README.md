@@ -108,29 +108,228 @@ ggplot2::ggplot(data=iris,aes(x=Sepal.Length, y = Petal.Length,colour=Species)) 
   scale_y_continuous(name="Petal length")+
   theme_dohac_white()
 #> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
-#> not found in Windows font database
+#> 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
-#> not found in Windows font database
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family not found in Windows font database
+#> family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family not found in Windows font database
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 ```
 
 <img src="man/figures/README-white_example-1.png" width="80%" />
@@ -149,37 +348,208 @@ ggplot(data=iris,aes(x=Sepal.Length, y = Petal.Length,colour=Species)) +
   labs(title="Sepal and petal lengths of irises")+
   theme_dohac_blue()
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family not found in Windows font database
+#> family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family not found in Windows font database
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
 #> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
-#> not found in Windows font database
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
+#> 'Helvetica neue' not found, will use 'sans' instead
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family not found in Windows font database
+#> family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family not found in Windows font database
+#> family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family not found in Windows font database
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 ```
 
 <img src="man/figures/README-blue_example-1.png" width="80%" />
@@ -217,9 +587,18 @@ ggplot(
   labs(title="States and Territories of Australia")+
   theme_dohac_map(base_colour = "white", base_size = 10)
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family not found in Windows font database
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 ```
 
 <img src="man/figures/README-map_grey-1.png" width="80%" />
@@ -245,11 +624,20 @@ ggplot(
   scale_fill_manual(guide='none',values=colorspace::lighten(strayr::palette_state_name_2016,.2)) +
   labs(title="States and Territories of Australia")+
   theme_dohac_map(base_colour = "blue", base_size = 10)
-#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\RtmpqMR6sB
+#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\RtmpMrwUG5
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family not found in Windows font database
+#> family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Helvetica neue' not found, will use 'sans' instead
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
-#> font family not found in Windows font database
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
+
+#> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+#> font family 'Helvetica neue' not found, will use 'sans' instead
 ```
 
 <img src="man/figures/README-map_blue-1.png" width="80%" />
