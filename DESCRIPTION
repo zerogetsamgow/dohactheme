@@ -1,0 +1,21 @@
+Package: dohactheme
+Title: DoHAC Themes Colour Palettes
+Version: 0.1.0
+Authors@R: 
+    person("Samuel", "Gow", , "samuel.gow@cubegroup.com.au", role = c("aut", "cre"))
+Description: A colour palette and ggplot2 themes that comply with the
+    AustralianDepartment of Health and Aged Care Sytle SheetBuilt using
+    the 'palettes' package, which provides methods for printing,
+    formatting, casting and coercion, extraction and updating of
+    components, plotting, colour mixing arithmetic, and colour
+    interpolation.
+License: CC BY 4.0
+URL: https://github.com/user/dohactheme
+BugReports: https://github.com/user/dohactheme/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    palettes,
+    R (>= 2.10)
+LazyData: true
