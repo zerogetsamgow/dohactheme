@@ -18,7 +18,7 @@
 #' @importFrom ggthemes theme_foundation
 
 theme_dohac_foundation <- function(base_size = 15, base_family = "Arial") {
-
+  install_dohac_fonts()
   showtext::showtext_auto()
   thm <- ggthemes::theme_foundation(base_size = base_size, base_family = base_family)
 
