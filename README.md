@@ -394,9 +394,6 @@ ggplot(data=iris,aes(x=Sepal.Length, y = Petal.Length,colour=Species)) +
 
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
 #> family 'Arial' not found, will use 'sans' instead
-
-#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
-#> family 'Arial' not found, will use 'sans' instead
 #> Warning in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): font family
 #> 'Arial' not found, will use 'sans' instead
 
@@ -584,7 +581,7 @@ ggplot(
   geom_sf() +
   geom_text(colour = dohac.blue, lineheight=.5)+
   scale_fill_manual(guide='none',values=colorspace::lighten(strayr::palette_state_name_2016,.7)) +
-  labs(title="States and Territories of Australia")+
+  labs(title="Australia's States and Territories")+
   theme_dohac_map(base_colour = "white", base_size = 10)
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
 #> family 'Arial' not found, will use 'sans' instead
@@ -622,9 +619,12 @@ ggplot(
   geom_sf() +
   geom_text(colour = dohactheme::dohac.lightteal, lineheight=.5)+
   scale_fill_manual(guide='none',values=colorspace::lighten(strayr::palette_state_name_2016,.2)) +
-  labs(title="States and Territories of Australia")+
+  labs(title="Australia's States and Territories")+
   theme_dohac_map(base_colour = "blue", base_size = 10)
-#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\RtmpMnPVwO
+#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\RtmpkHC6NJ
+#> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
+#> family 'Arial' not found, will use 'sans' instead
+
 #> Warning in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y, : font
 #> family 'Arial' not found, will use 'sans' instead
 #> Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
