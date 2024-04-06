@@ -56,6 +56,7 @@ theme_dohac_foundation <- function(base_size = 15, base_family = "Arial") {
       # Define foundation legend parameters
       legend.background = ggplot2::element_blank(),
       legend.key = ggplot2::element_blank(),
+      legend.key.size = unit(4,"mm"),
       legend.position = "bottom",
       legend.margin = ggplot2::margin(.1, .1, .1, .1, "cm"),
       # Define foundation margin parameters

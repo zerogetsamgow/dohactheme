@@ -68,6 +68,7 @@ theme_dohac_map <-
       # Define foundation legend parameters
       legend.background = ggplot2::element_blank(),
       legend.key = ggplot2::element_blank(),
+      legend.key.size = unit(4,"mm"),
       legend.position.inside = c(0,0),
       legend.title.position = "top",
       legend.direction = "horizontal",
