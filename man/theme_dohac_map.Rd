@@ -6,7 +6,7 @@
 \usage{
 theme_dohac_map(
   base_colour = c("white", "blue"),
-  base_size = 15,
+  base_size = 20,
   base_family = "Arial"
 )
 }

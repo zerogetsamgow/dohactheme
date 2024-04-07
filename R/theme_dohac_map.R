@@ -15,7 +15,7 @@
 theme_dohac_map <-
   function(
     base_colour = c("white","blue"),
-    base_size = 15,
+    base_size = 20,
     base_family = "Arial") {
 
 
@@ -51,7 +51,7 @@ theme_dohac_map <-
       text =
         ggplot2::element_text(
           family=base_family,
-          size=20,
+          size=base_size,
           colour=.text_colour
         ),
       plot.title =

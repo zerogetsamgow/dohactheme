@@ -17,7 +17,7 @@
 #' @importFrom ggplot2 theme
 #' @importFrom ggthemes theme_foundation
 
-theme_dohac_foundation <- function(base_size = 15, base_family = "Arial") {
+theme_dohac_foundation <- function(base_size = 20, base_family = "Arial") {
   install_dohac_fonts()
   showtext::showtext_auto()
   thm <- ggthemes::theme_foundation(base_size = base_size, base_family = base_family)
@@ -33,7 +33,7 @@ theme_dohac_foundation <- function(base_size = 15, base_family = "Arial") {
       text =
         ggplot2::element_text(
           family=base_family,
-          size=20
+          size=base_size
           ),
       plot.title =
         ggplot2::element_text(
