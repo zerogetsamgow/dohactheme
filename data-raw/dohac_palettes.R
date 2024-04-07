@@ -8,11 +8,11 @@ library(palettes)
 dohac.blue = pal_colour("#1d437f")
 usethis::use_data(dohac.blue, overwrite = TRUE)
 
-dohac.darkblue = pal_colour("#153a6e")
-usethis::use_data(dohac.darkblue, overwrite = TRUE)
-
 dohac.teal = pal_colour("#008a96")
 usethis::use_data(dohac.teal, overwrite = TRUE)
+
+dohac.darkblue = pal_colour("#153a6e")
+usethis::use_data(dohac.darkblue, overwrite = TRUE)
 
 
 dohac.darkteal = pal_colour("#00727d")
@@ -87,8 +87,8 @@ dohac_colours =
     #primary colours
     primary = c(
       dohac.blue,
-      dohac.darkblue,
       dohac.teal,
+      dohac.darkblue,
       dohac.darkteal),
     # complementary colours
     secondary =
