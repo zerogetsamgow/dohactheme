@@ -17,7 +17,7 @@
 #' @importFrom ggplot2 theme
 #' @importFrom ggthemes theme_foundation
 
-theme_dohac_foundation <- function(base_size = 20, base_family = "Arial") {
+theme_dohac_foundation <- function(base_size = 15, base_family = "Arial") {
   install_dohac_fonts()
   showtext::showtext_auto()
   thm <- ggthemes::theme_foundation(base_size = base_size, base_family = base_family)
@@ -33,7 +33,10 @@ theme_dohac_foundation <- function(base_size = 20, base_family = "Arial") {
       text =
         ggplot2::element_text(
           family=base_family,
-          size=base_size
+          size=base_size,
+          face = "plain",
+          lineheight = 0.7,
+          debug = FALSE
           ),
       plot.title =
         ggplot2::element_text(
@@ -51,7 +54,7 @@ theme_dohac_foundation <- function(base_size = 20, base_family = "Arial") {
       axis.ticks = ggplot2::element_blank(),
       axis.text =
         ggplot2::element_text(
-          size=ggplot2::rel(.8)
+          size=ggplot2::rel(1)
           ),
       # Define foundation legend parameters
       legend.background = ggplot2::element_blank(),
@@ -59,6 +62,10 @@ theme_dohac_foundation <- function(base_size = 20, base_family = "Arial") {
       legend.key.size = unit(4,"mm"),
       legend.position = "bottom",
       legend.margin = ggplot2::margin(.1, .1, .1, .1, "cm"),
+      legend.text =
+        ggplot2::element_text(
+          size=ggplot2::rel(1)
+        ),
       # Define foundation margin parameters
       plot.margin = ggplot2::margin(.5, .5, 0, .5, "cm"),
       # Define foundation title parameters

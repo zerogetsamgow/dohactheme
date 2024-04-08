@@ -4,7 +4,7 @@
 \alias{theme_dohac_foundation}
 \title{DoHAC Foundation Theme}
 \usage{
-theme_dohac_foundation(base_size = 20, base_family = "Arial")
+theme_dohac_foundation(base_size = 15, base_family = "Arial")
 }
 \arguments{
 \item{base_size}{base font size, given in pts.}
