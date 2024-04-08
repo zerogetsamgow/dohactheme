@@ -127,6 +127,7 @@ dohac_colours =
         )
   )
 
+usethis::use_data(dohac_colours, overwrite = TRUE)
 # Create shades ----------------------------------------------
 # blues at 20 per cent intervals
 .blues = pal_ramp(c(dohac.darkblue,pal_colour("white")),n=6, interpolate ="spline")
