@@ -13,8 +13,9 @@
 
 
 theme_dohac_white <- function(base.colour="white",
-                            line.colour=dohac.darkblue,
-                            text.colour=dohac.darkblue) {
+                              base.size=15,
+                              line.colour=dohac.darkblue,
+                              text.colour=dohac.darkblue) {
 
 
   thm <- dohactheme::theme_dohac_foundation()
@@ -22,7 +23,7 @@ theme_dohac_white <- function(base.colour="white",
   thm +
     ggplot2::theme(
       # Set colours
-      text=element_text(colour = text.colour),
+      text=element_text(size = base.size, colour = text.colour),
       plot.background = element_rect(fill=base.colour, colour=NA),
       axis.line = element_line(colour=line.colour),
       axis.text = element_text(colour=text.colour)

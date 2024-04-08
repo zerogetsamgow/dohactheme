@@ -119,7 +119,7 @@ publication.
 ## basic example of a green plot
 ggplot(data=iris,aes(x=Sepal.Length, y = Petal.Length,colour=Species)) +
   geom_point(size=3) +
-  scale_colour_manual(values=dohac_colours$primary,labels=stringr::str_to_title) +
+  scale_colour_manual(values=dohac_colours$secondary,labels=stringr::str_to_title) +
   scale_x_continuous(name="Sepal length")+
   scale_y_continuous(name="Petal length")+
   labs(title="Sepal and petal lengths of irises")+
@@ -185,7 +185,7 @@ ggplot(
   scale_fill_manual(guide='none',values=colorspace::lighten(strayr::palette_state_name_2016,.2)) +
   labs(title="Australia's States and Territories")+
   theme_dohac_map(base_colour = "blue", base_size = 10)
-#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\Rtmp2dYLOU
+#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\RtmpEJhhwV
 ```
 
 <img src="man/figures/README-map_blue-1.png" width="80%" />

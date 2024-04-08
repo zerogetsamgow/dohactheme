@@ -6,6 +6,7 @@
 \usage{
 theme_dohac_white(
   base.colour = "white",
+  base.size = 15,
   line.colour = dohac.darkblue,
   text.colour = dohac.darkblue
 )
