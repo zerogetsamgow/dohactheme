@@ -30,21 +30,29 @@ theme_dohac_foundation <- function(base_size = 15, base_family = "Arial") {
       panel.background = ggplot2::element_blank(),
       panel.border = ggplot2::element_blank(),
       # Define cube_founcation text parameters
+      # Define cube_founcation text parameters
       text =
-        ggplot2::element_text(
-          family=base_family,
-          size=base_size,
-          face = "plain",
-          lineheight = 0.7,
-          debug = FALSE
-          ),
+        element_text(
+          family=base_family
+        ),
       plot.title =
-        ggplot2::element_text(
-          size=ggplot2::rel(1.2),
+        element_text(
+          size=rel(1.2),
           face="bold",
           lineheight = 0.5,
           margin = margin(0, 0, .5, 0, "cm")
-          ),
+        ),
+      legend.text =
+        element_text(
+          size=rel(1)),
+      legend.title =
+        element_text(
+          size=rel(1),
+          lineheight=.3,
+          vjust=1,
+          margin = margin(0,0,0,0,"cm")),
+      plot.caption = element_text(size=rel(1),hjust = 0),
+      strip.text = element_text(size=rel(1)),
       # Define axis foundation parameters
       axis.line =
         ggplot2::element_line(
@@ -62,10 +70,6 @@ theme_dohac_foundation <- function(base_size = 15, base_family = "Arial") {
       legend.key.size = unit(4,"mm"),
       legend.position = "bottom",
       legend.margin = ggplot2::margin(.1, .1, .1, .1, "cm"),
-      legend.text =
-        ggplot2::element_text(
-          size=ggplot2::rel(1)
-        ),
       # Define foundation margin parameters
       plot.margin = ggplot2::margin(.5, .5, 0, .5, "cm"),
       # Define foundation title parameters
