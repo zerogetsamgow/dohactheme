@@ -1,6 +1,6 @@
 Package: dohactheme
 Title: DoHAC Themes and Colour Palettes
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     person("Samuel", "Gow", , "samuel.gow@cubegroup.com.au", role = c("aut", "cre"))
 Description: A colour palette and ggplot2 themes that comply with the
