@@ -128,14 +128,13 @@ dohac_colours =
     accessible =
       c(
         dohac.teal,
-        dohac.blue,
-        dohac.lightteal,
+        dohac.darkblue,
         dohac.lime,
         dohac.lightblue,
         dohac.pink,
         dohac.orange,
-        dohac.red,
-        dohac.yellow
+        dohac.lightteal
+
       )
   )
 
