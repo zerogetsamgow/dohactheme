@@ -130,8 +130,8 @@ dohac_colours =
         dohac.teal,
         dohac.blue,
         dohac.lime,
-        dohac.pink,
         dohac.lightteal,
+        dohac.pink,
         dohac.orange,
         dohac.red,
         dohac.yellow
