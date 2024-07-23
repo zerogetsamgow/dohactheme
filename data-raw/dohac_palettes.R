@@ -27,7 +27,7 @@ dohac.midblue = pal_colour("#006fb9")
 usethis::use_data(dohac.midblue, overwrite = TRUE)
 
 dohac.lime = pal_colour("#acbf29")
-usethis::use_data(dohac.teal, overwrite = TRUE)
+usethis::use_data(dohac.lime, overwrite = TRUE)
 
 dohac.lightteal = pal_colour("#009eba")
 usethis::use_data(dohac.lightteal, overwrite = TRUE)
@@ -124,7 +124,18 @@ dohac_colours =
       c(
         dohac.red,
         dohac.yellow
-        )
+        ),
+    accessible =
+      c(
+        dohac.teal,
+        dohac.blue,
+        dohac.lime,
+        dohac.lightteal,
+        dohac.pink,
+        dohac.orange,
+        dohac.yellow,
+        dohac.red
+      )
   )
 
 usethis::use_data(dohac_colours, overwrite = TRUE)

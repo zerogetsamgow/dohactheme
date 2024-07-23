@@ -7,7 +7,7 @@
 \format{
 \subsection{\code{dohace_colours}}{
 
-An object of class \code{palette} with 5 colours.
+An object of class \code{palette} with 6 colours.
 Use \code{names(dohac_colours)} to return all colour names.
 }
 }

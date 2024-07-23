@@ -83,6 +83,16 @@ DoHAC’s accents colours `dohac_colours$accents` are red and yellow.
 
 <img src="man/figures/README-unnamed-chunk-9-1.png" width="120px" height="30px" />
 
+## Accessible
+
+DoHAC’s brand palettes can be hard to differentiate when used
+individually in charts and other infographics. We have chosen a
+selection of colours with higher contrast and grouped them as
+`dohac_colours$accessible`. This palette is subject to revision based on
+feedback and testing
+
+<img src="man/figures/README-unnamed-chunk-10-1.png" width="120px" height="30px" />
+
 ## Installation
 
 You can install the development version of DoHACpalette from
@@ -185,12 +195,12 @@ ggplot(
   scale_fill_manual(guide='none',values=colorspace::lighten(strayr::palette_state_name_2016,.2)) +
   labs(title="Australia's States and Territories")+
   theme_dohac_map(base_colour = "blue", base_size = 10)
-#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\Rtmpc9j7FI
+#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\Rtmp4iMvRd
 ```
 
 <img src="man/figures/README-map_blue-1.png" width="80%" />
 
-DoHAC palette comes with a set of 5 discrete colour palettes, and 2
+DoHAC palette comes with a set of 6 discrete colour palettes, and 2
 sequential colour palettes, which can be accessed from the following R
 objects:
 
@@ -250,8 +260,8 @@ Palettes can be subset using `[`, `[[`, and `$`.
 
   ``` r
   names(dohac_palettes)
-  #> [1] "primary"   "secondary" "tints"     "neutrals"  "accents"   "blues"    
-  #> [7] "teals"
+  #> [1] "primary"    "secondary"  "tints"      "neutrals"   "accents"   
+  #> [6] "accessible" "blues"      "teals"
   ```
 
 ## Documentation

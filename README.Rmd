@@ -104,6 +104,13 @@ DoHAC's accents colours `dohac_colours$accents` are red and yellow.
 plot(c(dohac_colours$accents))
 ```
 
+## Accessible
+
+DoHAC's brand palettes can be hard to differentiate when used individually in charts and other infographics. We have chosen a selection of colours with higher contrast and grouped them as  `dohac_colours$accessible`. This palette is subject to revision based on feedback and testing
+
+```{r echo=FALSE, out.height="30px",out.width="120px"}
+plot(c(dohac_colours$accessible))
+```
 
 ## Installation
 
