@@ -22,7 +22,7 @@ capabilities, all without requiring you to write any code: formatting,
 casting and coercion, extraction and updating of components, plotting,
 colour mixing arithmetic, and colour interpolation.
 
-See the following vignettes to learn how to use DoHACpalletws with other
+See the following vignettes to learn how to use palletes with other
 packages:
 
 - [Using palettes with
@@ -36,13 +36,6 @@ packages:
 
 ## Included Colours
 
-The DoHAC palettte includes primary colours green, orange, grey. These
-are supported by light and dark shades.
-
-    #> Loading required package: palettes
-
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="120px" height="30px" />
-
 ### Primary colours
 
 DoHAC’s primary colour palette comprises blue and teal, with a secondary
@@ -50,38 +43,40 @@ dark shade of both.
 
 ### DoHAC blue and dark blue
 
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="120px" height="30px" />
+    #> Loading required package: palettes
+
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="120px" height="30px" />
 
 ### DoHAC teal and dark teal
 
-<img src="man/figures/README-unnamed-chunk-5-1.png" width="120px" height="30px" />
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="120px" height="30px" />
 
 ## Secondary colours
 
 DoHAC’s secondary colours `dohac_colours$secondary` add further shades
 of blue and teal, as well as pink and orange.
 
-<img src="man/figures/README-unnamed-chunk-6-1.png" width="120px" height="30px" />
+<img src="man/figures/README-unnamed-chunk-5-1.png" width="120px" height="30px" />
 
 ## Secondary tints
 
 DoHAC’s secondary colours are complemented by a series of tints
 `dohac_colours$tints` of the same colours.
 
-<img src="man/figures/README-unnamed-chunk-7-1.png" width="120px" height="30px" />
+<img src="man/figures/README-unnamed-chunk-6-1.png" width="120px" height="30px" />
 
 ## Neutrals
 
 DoHAC’s neutral colours are a series of 5 grey shades
 `dohac_colours$neutrals` .
 
-<img src="man/figures/README-unnamed-chunk-8-1.png" width="120px" height="30px" />
+<img src="man/figures/README-unnamed-chunk-7-1.png" width="120px" height="30px" />
 
 ## Accents
 
 DoHAC’s accents colours `dohac_colours$accents` are red and yellow.
 
-<img src="man/figures/README-unnamed-chunk-9-1.png" width="120px" height="30px" />
+<img src="man/figures/README-unnamed-chunk-8-1.png" width="120px" height="30px" />
 
 ## Accessible
 
@@ -91,7 +86,7 @@ selection of colours with higher contrast and grouped them as
 `dohac_colours$accessible`. This palette is subject to revision based on
 feedback and testing
 
-<img src="man/figures/README-unnamed-chunk-10-1.png" width="120px" height="30px" />
+<img src="man/figures/README-unnamed-chunk-9-1.png" width="120px" height="30px" />
 
 ## Installation
 
@@ -195,7 +190,7 @@ ggplot(
   scale_fill_manual(guide='none',values=colorspace::lighten(strayr::palette_state_name_2016,.2)) +
   labs(title="Australia's States and Territories")+
   theme_dohac_map(base_colour = "blue", base_size = 10)
-#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\RtmpeA4nNo
+#> Reading state2021 file found in C:\Users\SAMUEL~1\AppData\Local\Temp\RtmpeeDshP
 ```
 
 <img src="man/figures/README-map_blue-1.png" width="80%" />

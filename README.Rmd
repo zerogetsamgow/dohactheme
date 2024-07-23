@@ -40,7 +40,7 @@ The main purpose of dohactheme is to enable R users in Australian public policy 
 
 dohactheme was created with the **palettes** package, which provides a comprehensive library for colour vectors and colour palettes using a new family of colour classes (`palettes_colour`, and `palettes_palette`) that always print as hex codes with colour previews. Colour palette packages created with palettes have access to the following capabilities, all without requiring you to write any code: formatting, casting and coercion, extraction and updating of components, plotting, colour mixing arithmetic, and colour interpolation. 
 
-See the following vignettes to learn how to use DoHACpalletws with other packages:
+See the following vignettes to learn how to use palletes with other packages:
 
 - [Using palettes with ggplot2](https://mccarthy-m-g.github.io/palettes/articles/ggplot2.html)
 - [Using palettes with gt](https://mccarthy-m-g.github.io/palettes/articles/gt.html)
@@ -56,6 +56,7 @@ DoHAC's primary colour palette comprises blue and teal, with a secondary dark sh
 ### DoHAC blue and dark blue
 
 ```{r echo=FALSE, out.height="30px",out.width="120px"}
+library(dohactheme)
 plot(c(dohac.blue,dohac.darkblue))
 ```
 
