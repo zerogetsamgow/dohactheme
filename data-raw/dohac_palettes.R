@@ -129,8 +129,9 @@ dohac_colours =
       c(
         dohac.teal,
         dohac.blue,
-        dohac.lime,
         dohac.lightteal,
+        dohac.lime,
+        dohac.lightblue,
         dohac.pink,
         dohac.orange,
         dohac.red,
