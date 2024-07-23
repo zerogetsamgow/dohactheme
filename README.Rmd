@@ -49,13 +49,6 @@ See the following vignettes to learn how to use DoHACpalletws with other package
 
 ## Included Colours
 
-The DoHAC palettte includes primary colours green, orange, grey. These are supported by light and dark shades.
-
-```{r echo=FALSE, out.height="30px",out.width="120px"}
-library(dohactheme)
-plot(dohac_colours)
-```
-
 ### Primary colours
 
 DoHAC's primary colour palette comprises blue and teal, with a secondary dark shade of both.
